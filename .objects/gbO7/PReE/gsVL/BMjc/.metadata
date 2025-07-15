@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Follow and Verify Previ…(2)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "BMjcIEWbrUOgc5b-oRwH7A",
+  "Reference": "igFFmHnoR0qzinELv6wQMA/BMjcIEWbrUOgc5b-oRwH7A",
+  "ParentRef": "igFFmHnoR0qzinELv6wQMA/gsVLkvltJEaO2HdP14J3yw",
+  "Created": "2025-07-14T18:33:25.0287654Z",
+  "Updated": "2025-07-14T18:33:25.0287654Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

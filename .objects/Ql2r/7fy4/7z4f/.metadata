@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Instagram",
+  "Type": "Screen",
+  "Id": "7z4fpkdTfkSKasCGEwf-Hw",
+  "Reference": "igFFmHnoR0qzinELv6wQMA/7z4fpkdTfkSKasCGEwf-Hw",
+  "ParentRef": "igFFmHnoR0qzinELv6wQMA/7fy4EVtgR0afwFAXiJ_0-Q",
+  "Created": "2025-07-14T18:48:40.2891435Z",
+  "Updated": "2025-07-14T18:48:40.2891435Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

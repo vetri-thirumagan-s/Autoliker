@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Setup Extensions",
+  "Type": "Screen",
+  "Id": "ohloPj2Y0ke0p8-sdTtVpw",
+  "Reference": "igFFmHnoR0qzinELv6wQMA/ohloPj2Y0ke0p8-sdTtVpw",
+  "ParentRef": "igFFmHnoR0qzinELv6wQMA/BxVQGBjhS0W-8frizH-q9g",
+  "Created": "2025-07-14T17:10:35.2587806Z",
+  "Updated": "2025-07-14T17:10:35.2587806Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

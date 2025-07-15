@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Like(1)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "OGZcaN4B0U-XjIYIo3-AtQ",
+  "Reference": "igFFmHnoR0qzinELv6wQMA/OGZcaN4B0U-XjIYIo3-AtQ",
+  "ParentRef": "igFFmHnoR0qzinELv6wQMA/gsVLkvltJEaO2HdP14J3yw",
+  "Created": "2025-07-14T17:43:17.6531327Z",
+  "Updated": "2025-07-14T17:43:17.6531327Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9ex2dtE-L0CKIr7PHOoOyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com/autoliker" CVScreenId="c365edc6-9f47-4378-8a47-774a142771eb" CvElementArea="858, 227, 202, 51" CvTextArea="874, 244, 171, 18" CvTextArgument="SEARCH ACCOUNT" CvType="Button" DesignTimeRectangle="860, 1088, 199, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='searchbtn' tag='BUTTON' /&gt;" Guid="a1650af2-9d90-4505-9b01-a92efad6f7fb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Instagram Auto Liker - Auto Followers - Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="594, 583, 732, 47" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" Guid="fe741507-cd41-4cca-91db-b7ffcd4912a0" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec7413e33fabc165ebf1a7502fb860e1.png" xmlns="">0a8Bhb8RtikmcIIH9BlMUmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jNigzg9CUkqHpBjeuyP72g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com/autoliker/dashboard" CVScreenId="274ddb0b-1b49-43bc-bdad-b27ce2ea3c5e" CvElementArea="511, 873, 208, 66" CvTextArea="534, 895, 164, 23" CvTextArgument="EARN CREDITS" CvType="Button" DesignTimeRectangle="514, 877, 204, 59" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='EARN CREDITS' tag='A' /&gt;" Guid="fc10a327-c4c0-48be-9c16-ac1b76472cbf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="274ddb0b-1b49-43bc-bdad-b27ce2ea3c5e" CvTextArea="882, 836, 153, 25" CvTextArgument="Quick Access" CvType="Text" DesignTimeRectangle="884, 831, 151, 33" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Quick Access' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Quick Access' /&gt;" Guid="5c0d3004-e06c-4578-bd4b-2ad1c81e913a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3956c6f2dbb7bb8ac5b994a226f4dc56.png" xmlns="">0vwdDbkwCMEmrI7GqUeyFRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

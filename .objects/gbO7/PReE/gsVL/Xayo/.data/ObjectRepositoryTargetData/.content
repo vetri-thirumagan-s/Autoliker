@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sCk4-hVookm1rFhiF9bugg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="instagram.com/fatinishrak.mahadi" CVScreenId="1b16f2c1-cce4-4724-a5c1-7636b233bb94" CvElementArea="712, 191, 108, 44" CvTextArea="739, 203, 55, 17" CvTextArgument="Follow" CvType="Button" DesignTimeRectangle="716, 194, 102, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class=' _acan _acap _acas _aj1- _ap30' aaname='Follow' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Follow' /&gt;" Guid="0b216256-b6b0-49c5-938c-0ff7823f5507" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Instagram' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1b16f2c1-cce4-4724-a5c1-7636b233bb94" CvElementArea="712, 191, 108, 44" CvTextArea="739, 203, 55, 17" CvTextArgument="Follow" CvType="Button" DesignTimeRectangle="741, 202, 52, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Follow' tag='DIV' type='' class='_ap3a _aaco _aacw _aad6 _aade' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Follow' /&gt;" Guid="1d5e45d2-fc05-4346-9062-4e81ec58c269" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c5aa6ba8f4b64a0f57adca9dc545998.png" xmlns="">0VuFsZI1La0mtKljOsHRbKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,611 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1590.4,3976.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome New Tab" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1590.4,3953.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="9612e337-7374-4c53-aa59-80d32a47682e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1556.8,3713.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="num">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:Int32" Value="1000" />
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="1523.2,56.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'editable text Address a…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1523.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="newtab" CVScreenId="f3c97a47-cbb7-48ea-b424-6fd2fee119d5" ContentHash="3hgZp6z4e0O-fS5YEOGdow" CvElementArea="200, 66, 1415, 41" CvType="InputBox" DesignTimeRectangle="250, 72, 1317, 31" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='New Tab - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="5f72eeb6-bdf1-4d32-8620-59023c2a41e4" InformativeScreenshot="c2c0837df84618fe6c17166b72a1d4b5.png" Reference="igFFmHnoR0qzinELv6wQMA/7L5fba_pI02nItohyIDKNg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="105, 66, 43, 43" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='New Tab - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Reload' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Reload' /&gt;" Guid="37ebd1bb-6afe-40ef-81ff-f36fdf419d52" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'editable text Address a…(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1523.2,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Text="https://greatonlinetools.com/" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="newtab" CVScreenId="f3c97a47-cbb7-48ea-b424-6fd2fee119d5" ContentHash="LWDbb0C7VEa36qpaTOIFGw" CvElementArea="200, 66, 1415, 41" CvType="InputBox" DesignTimeRectangle="250, 72, 1317, 31" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='New Tab - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="983aaceb-e32c-480d-9f32-a74b6fe8346d" InformativeScreenshot="c2c0837df84618fe6c17166b72a1d4b5.png" Reference="igFFmHnoR0qzinELv6wQMA/irMDfiQYaE6N5kAQxX9Lbw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="105, 66, 43, 43" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='New Tab - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Reload' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Reload' /&gt;" Guid="dc337ccd-849d-49df-9d29-87e87ad4c620" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1523.2,246.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Try Now'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1523.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="greatonlinetools.com" CVScreenId="d8356394-2621-4f0f-a2c6-331473e9df75" ContentHash="KGa--kkm-k-rvstrOSdmjw" CvElementArea="1092, 834, 114, 51" CvTextArea="1107, 850, 82, 22" CvTextArgument="Try Now" CvType="Button" DesignTimeRectangle="1094, 836, 111, 47" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Try Now' href='/autoliker' tag='A' /&gt;" Guid="6af64328-6517-4960-93c2-9358bb14dd8a" InformativeScreenshot="365e7acfca2fa93f20259f292f6d53e8.png" Reference="igFFmHnoR0qzinELv6wQMA/kZBTbwY4OUmvNLhFTLQ58A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1045, 655, 265, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' class='ms-3 fw-bold' aaname='Instagram Auto Liker' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Instagram Auto Liker' /&gt;" Guid="af7e5332-8725-45ec-9334-86e2f44256b3" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Button(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1523.2,756" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="greatonlinetools.com" CVScreenId="caf6de9e-7e1f-4278-a57e-d2608174d734" ContentHash="KS2jm1umdkalP3SnSjGd-g" CvElementArea="955, 690, 139, 51" CvTextArea="1002, 706, 42, 15" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="954, 690, 141, 51" ElementType="Button" Guid="c4c5faf3-38b9-4163-b647-2256a243ecbd" InformativeScreenshot="264a697a9abb467947cd3a7e1fb33dfa.png" Reference="igFFmHnoR0qzinELv6wQMA/jy68NfFo0UuZmNv3ihuekQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="caf6de9e-7e1f-4278-a57e-d2608174d734" CvTextArea="692, 506, 22, 15" CvTextArgument="Ad" CvType="Text" DesignTimeRectangle="692, 506, 22, 15" ElementType="Text" Guid="c907e3ed-943a-4772-b5a5-5f70e6820f55" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SEARCH ACCOUNT'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker" CVScreenId="c365edc6-9f47-4378-8a47-774a142771eb" ContentHash="9ex2dtE-L0CKIr7PHOoOyw" CvElementArea="858, 227, 202, 51" CvTextArea="874, 244, 171, 18" CvTextArgument="SEARCH ACCOUNT" CvType="Button" DesignTimeRectangle="860, 1088, 199, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='searchbtn' tag='BUTTON' /&gt;" Guid="a1650af2-9d90-4505-9b01-a92efad6f7fb" InformativeScreenshot="ec7413e33fabc165ebf1a7502fb860e1.png" Reference="igFFmHnoR0qzinELv6wQMA/qAZnMi3W40q0-HMAKaSSmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Instagram Auto Liker - Auto Followers - Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="594, 583, 732, 47" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" Guid="fe741507-cd41-4cca-91db-b7ffcd4912a0" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ad'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="greatonlinetools.com" CVScreenId="809e094d-a6dd-4163-9b00-61b625744b0e" ContentHash="qeyK6uJImkek7pDRRs-OAA" CvElementArea="1084, 480, 30, 29" CvType="CloseButton" DesignTimeRectangle="1092, 487, 17, 17" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='aswift_3' tag='IFRAME' /&gt;&lt;webctrl tag='path' /&gt;" Guid="c3ca21b5-6f49-4c46-9f6b-94b782bd8a76" InformativeScreenshot="484891c88e3cb8e6ee1000be80528853.png" Reference="igFFmHnoR0qzinELv6wQMA/ZCOpmR0KfEWE8Io-dNyZiw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="809e094d-a6dd-4163-9b00-61b625744b0e" CvTextArea="835, 485, 22, 13" CvTextArgument="Ad" CvType="Text" DesignTimeRectangle="838, 477, 20, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='aswift_3' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl parentid='heading' tag='DIV' type='' class='text' aaname='Ad' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ad' /&gt;" Guid="a2d91e8a-8776-4db3-a5eb-829aba0dd5a8" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SEARCH ACCOUNT'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker" CVScreenId="c365edc6-9f47-4378-8a47-774a142771eb" ContentHash="9ex2dtE-L0CKIr7PHOoOyw" CvElementArea="858, 227, 202, 51" CvTextArea="874, 244, 171, 18" CvTextArgument="SEARCH ACCOUNT" CvType="Button" DesignTimeRectangle="860, 1088, 199, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='searchbtn' tag='BUTTON' /&gt;" Guid="a1650af2-9d90-4505-9b01-a92efad6f7fb" InformativeScreenshot="ec7413e33fabc165ebf1a7502fb860e1.png" Reference="igFFmHnoR0qzinELv6wQMA/qAZnMi3W40q0-HMAKaSSmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Instagram Auto Liker - Auto Followers - Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="594, 583, 732, 47" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" Guid="fe741507-cd41-4cca-91db-b7ffcd4912a0" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="greatonlinetools.com" CVScreenId="b7aee904-aaf5-4717-b03e-e9b799f99062" ContentHash="UCifIQqDZk25kw9iup-jJw" CvElementArea="955, 690, 139, 51" CvTextArea="1002, 706, 42, 15" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="954, 690, 141, 51" ElementType="Button" Guid="f1ce73e5-7328-4847-afe8-5b788bbab761" InformativeScreenshot="0c49d242a396d300cd7bdc4d92b3d93c.png" Reference="igFFmHnoR0qzinELv6wQMA/pMCIDgZy00WGK5vQ3G5rhw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b7aee904-aaf5-4717-b03e-e9b799f99062" CvTextArea="692, 506, 22, 15" CvTextArgument="Ad" CvType="Text" DesignTimeRectangle="692, 506, 22, 15" ElementType="Text" Guid="3958069e-4348-433c-95da-f2843d8c9460" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'EARN CREDITS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1523.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/dashboard" CVScreenId="274ddb0b-1b49-43bc-bdad-b27ce2ea3c5e" ContentHash="jNigzg9CUkqHpBjeuyP72g" CvElementArea="511, 873, 208, 66" CvTextArea="534, 895, 164, 23" CvTextArgument="EARN CREDITS" CvType="Button" DesignTimeRectangle="514, 877, 204, 59" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='EARN CREDITS' tag='A' /&gt;" Guid="fc10a327-c4c0-48be-9c16-ac1b76472cbf" InformativeScreenshot="3956c6f2dbb7bb8ac5b994a226f4dc56.png" Reference="igFFmHnoR0qzinELv6wQMA/9jt9hhoboU-s-KAxdyUpxQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="274ddb0b-1b49-43bc-bdad-b27ce2ea3c5e" CvTextArea="882, 836, 153, 25" CvTextArgument="Quick Access" CvType="Text" DesignTimeRectangle="884, 831, 151, 33" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Quick Access' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Quick Access' /&gt;" Guid="5c0d3004-e06c-4578-bd4b-2ad1c81e913a" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="1523.2,1604.8" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1521.6,1506.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheckState DisplayName="Check App State 'Following'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1488,1446.4" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,900" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Follow and Verify Previ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="b6823e90-1058-4c59-99a0-8addc2826cb2" ContentHash="-PrRHS6bhE2R_eA48JipKg" CvElementArea="502, 654, 365, 50" CvTextArea="519, 670, 331, 18" CvTextArgument="Follow and Verify Previous Promotion" CvType="Button" DesignTimeRectangle="504, 656, 361, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' /&gt;" Guid="f1d74379-8a45-4805-b1a4-3f10f16bd56e" InformativeScreenshot="739856d4db58f234f0f4bedf4960d7de.png" Reference="igFFmHnoR0qzinELv6wQMA/uBX9sw4Q5kmNrgkwpkRySA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="b6823e90-1058-4c59-99a0-8addc2826cb2" CvTextArea="656, 619, 116, 30" CvTextArgument="Following" CvType="Text" DesignTimeRectangle="657, 614, 115, 33" FuzzySelectorArgument="&lt;webctrl parentid='showText' tag='B' type='' class='' aaname='Following' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Following' /&gt;" Guid="4b984d7d-095c-4dac-8e7d-128d81730e0d" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'Follow'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="instagram.com/fatinishrak.mahadi" CVScreenId="1b16f2c1-cce4-4724-a5c1-7636b233bb94" ContentHash="sCk4-hVookm1rFhiF9bugg" CvElementArea="712, 191, 108, 44" CvTextArea="739, 203, 55, 17" CvTextArgument="Follow" CvType="Button" DesignTimeRectangle="716, 194, 102, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class=' _acan _acap _acas _aj1- _ap30' aaname='Follow' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Follow' /&gt;" Guid="0b216256-b6b0-49c5-938c-0ff7823f5507" InformativeScreenshot="9c5aa6ba8f4b64a0f57adca9dc545998.png" Reference="igFFmHnoR0qzinELv6wQMA/XayoAORjDEup5YrTz8MWPA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Instagram' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="1b16f2c1-cce4-4724-a5c1-7636b233bb94" CvElementArea="712, 191, 108, 44" CvTextArea="739, 203, 55, 17" CvTextArgument="Follow" CvType="Button" DesignTimeRectangle="741, 202, 52, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Follow' tag='DIV' type='' class='_ap3a _aaco _aacw _aad6 _aade' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Follow' /&gt;" Guid="1d5e45d2-fc05-4346-9062-4e81ec58c269" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" ContentHash="f9wiNe1xqEWXQiQabggD-A" CvElementArea="1222, 7, 24, 23" CvType="CloseButton" DesignTimeRectangle="1206, 1, 58, 38" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="391c98c1-955d-4683-b88d-d0838060787a" InformativeScreenshot="2892994ebcdc8a63d3a6962864893f06.png" Reference="igFFmHnoR0qzinELv6wQMA/pvZ1YLdlB0KgpanpKSL0vQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instagram - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" CvElementArea="1164, 6, 25, 24" CvType="MaximizeButton" DesignTimeRectangle="1148, 1, 59, 38" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Maximize' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Maximize' /&gt;" Guid="1f0ed59a-88bf-476a-a78a-32ce58f0740f" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" DisplayName="Close Popup" sap:VirtualizedContainerService.HintSize="416,161.6" sap2010:WorkflowViewState.IdRef="NClosePopup_1" PreferredButtons="[New String(){&quot;Close&quot;,&quot;Cancel&quot;}]" Version="V5" />
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="985.6,1204.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NCheckState DisplayName="Check App State 'Follow and Verify Previ…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="952,1143.2" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,900" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Follow and Verify Previ…(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="2a3f7909-657a-4c43-957c-b705228458db" ContentHash="a82zpeWiwkWtnJYU__B5Ig" CvElementArea="502, 602, 365, 50" CvTextArea="519, 619, 331, 18" CvTextArgument="Follow and Verify Previous Promotion" CvType="Button" DesignTimeRectangle="504, 604, 361, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' /&gt;" Guid="a380486b-cb13-42ed-bc2f-587f73b176d3" InformativeScreenshot="c0ef8492e7652dd7453784c5605874db.png" Reference="igFFmHnoR0qzinELv6wQMA/BMjcIEWbrUOgc5b-oRwH7A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="2a3f7909-657a-4c43-957c-b705228458db" CvTextArea="594, 567, 73, 28" CvTextArgument="Liking" CvType="Text" DesignTimeRectangle="595, 562, 79, 33" FuzzySelectorArgument="&lt;webctrl parentid='showText' tag='B' type='' class='' aaname=' Liking ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Liking' /&gt;" Guid="5bc2616d-a728-43a9-a6e7-7705a9094cc2" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'Like(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="instagram.com/reel/DMC_BZXSWlc" CVScreenId="04df560d-d89c-4559-ba25-10c257fbf7c5" ContentHash="ecmL9UwBL0WKwR2_Zuob1w" CvElementArea="691, 739, 35, 33" CvType="Icon" DesignTimeRectangle="694, 743, 30, 30" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-label='Like' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" Guid="63f3267b-edd1-4dd4-b985-c704b9785711" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANQSURBVFhH7ZbbK3xRFMf9NeQyuU2UqIlQiCJexpM8Mk158aAk5U2JRCnmgUJJuZWUJJfMTO55cH+Rcku55rZ+fXft1dn7nMMZv/n18+BT52Wv717rO3POWnvH0A8hRl/4X/wa0XFk5ODggEZHR2lgYIC2t7fp7e1NlzCvr6+0sbFB/f39Ys/h4aEuscTWyOPjIzU1NVF6ejrFxsYqj8vlIr/fT1dXV6y/vLykuro6SkxMNOmRo7m5mZ6fn5UaRiyN7O/vU15enimh/mRkZNDs7CxNTEyQ2+02xfWnsLBQ5LbCZGRra0v5Vfjlc3NzdH5+Tnd3d7SyskJdXV2WvzwpKYl6e3tpbW2N7u/vxR7s9fl8rME+vF4dxQjefVFREScdGRkxhhVCoRAlJydzgdTUVPFt2DE8PMzmS0pKTN+ZYqSvr48TDw0NGUOW4JdLfTgc1sMmBgcHWY+P2YhiJDc3V4jKy8vp4+PDGLKloaGBGhsb9WVLkLOsrEzUwPdihI2gS6RbOHcKuuX29lZftiUQCIgacXFxShexkc3NTTaytLTEgmizsLDAdXZ3d3mdjUxOTrLg6OiIBdEGw1HWmZmZ4XU2sri4yAJ0xL9idXWV62AUSNjIxcUFCzo6OlgQbTCDZJ3r62teV7qmuLhYCLKzs+nl5cUYigrIWVBQIGpUVVUpMcWI/KLx9PT0GENRob29nfOPj48rMcXI09MTeTweIUxISLAcxd/FOPxKS0vp/f1diZvOmvX1dR7FODV3dnZ0ScTgA5XHAQ5Hq640GQHz8/PsPiUlhZaXl3WJY6ampig+Pl7kwvm1t7enSwSWRgDOGmkGUxCXnEjp7u7mHPiXMczssDUCpqenKS0tjZO1tLSY3q0VuKXh/JH7MjMzv5xNnxoB6PXKykpOWl9f/2lr49zxer2sr6ioUOaFHV8aAQ8PD1RdXc3JUejm5kaX0dnZGeXn57OutrZW7HWCIyMArV1TU8NFcnJylIvxycmJWJNx3HedvEaJYyMAr8R47cvKyhJdEAwGxf1Vrnd2dupbvyQiIwCXm9bWVi5qfNBdY2Nj+hZHRGxEgpu78QKNeYPB9V2+bQQcHx+Llm5ra6PT01M9HBF/ZSSa/BrR+TFG/gD6ARLhKL7vywAAAABJRU5ErkJggg==" InformativeScreenshot="5cf609c89681686d533a4f164979e248.png" Reference="igFFmHnoR0qzinELv6wQMA/OGZcaN4B0U-XjIYIo3-AtQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Instagram' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="04df560d-d89c-4559-ba25-10c257fbf7c5" CvTextArea="950, 761, 90, 22" CvTextArgument="Messages" CvType="Text" DesignTimeRectangle="952, 761, 88, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Messages' type='' tag='SPAN' class='x1lliihq x1plvlek xryxfnj x1n2onr6 x1ji0vk5 x18bv5gf x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xl565be x1s688f x5n08af x1tu3fi x3x7a5m x10wh9bi xpm28yp x8viiok x1o7cslx' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Messages' /&gt;" Guid="095abe61-aded-4100-a99c-8c6fd5f96e8b" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" ContentHash="f9wiNe1xqEWXQiQabggD-A" CvElementArea="1222, 7, 24, 23" CvType="CloseButton" DesignTimeRectangle="1206, 1, 58, 38" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="391c98c1-955d-4683-b88d-d0838060787a" InformativeScreenshot="2892994ebcdc8a63d3a6962864893f06.png" Reference="igFFmHnoR0qzinELv6wQMA/pvZ1YLdlB0KgpanpKSL0vQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instagram - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" CvElementArea="1164, 6, 25, 24" CvType="MaximizeButton" DesignTimeRectangle="1148, 1, 59, 38" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Maximize' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Maximize' /&gt;" Guid="1f0ed59a-88bf-476a-a78a-32ce58f0740f" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" DisplayName="Close Popup" sap:VirtualizedContainerService.HintSize="416,161.6" sap2010:WorkflowViewState.IdRef="NClosePopup_2" PreferredButtons="[New String(){&quot;Close&quot;, &quot;Cancel&quot;}]" Version="V5" />
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,900" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Like'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="cad9fefc-3a68-4a0b-afc3-8b25dfbaf73f" ContentHash="ezNBb5kclUGhU_g5uWX0Zw" CvElementArea="648, 653, 72, 51" CvTextArea="665, 670, 37, 20" CvTextArgument="Like" CvType="Button" DesignTimeRectangle="651, 656, 67, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' /&gt;" Guid="ada1c41f-36db-42c0-9fa8-e895a4b2aba9" InformativeScreenshot="90f7fee9a835d961fe37db6c3cec5fca.png" Reference="igFFmHnoR0qzinELv6wQMA/1li6jndV-0GXkY6NzZWk-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="cad9fefc-3a68-4a0b-afc3-8b25dfbaf73f" CvTextArea="537, 619, 72, 30" CvTextArgument="Liking" CvType="Text" DesignTimeRectangle="538, 614, 79, 33" FuzzySelectorArgument="&lt;webctrl parentid='showText' tag='B' type='' class='' aaname=' Liking ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Liking' /&gt;" Guid="9b169ee9-4c6e-409e-b7ed-32388c97e964" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Like(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="instagram.com/reel/DMC_BZXSWlc" CVScreenId="04df560d-d89c-4559-ba25-10c257fbf7c5" ContentHash="ecmL9UwBL0WKwR2_Zuob1w" CvElementArea="691, 739, 35, 33" CvType="Icon" DesignTimeRectangle="694, 743, 30, 30" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-label='Like' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" Guid="63f3267b-edd1-4dd4-b985-c704b9785711" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANQSURBVFhH7ZbbK3xRFMf9NeQyuU2UqIlQiCJexpM8Mk158aAk5U2JRCnmgUJJuZWUJJfMTO55cH+Rcku55rZ+fXft1dn7nMMZv/n18+BT52Wv717rO3POWnvH0A8hRl/4X/wa0XFk5ODggEZHR2lgYIC2t7fp7e1NlzCvr6+0sbFB/f39Ys/h4aEuscTWyOPjIzU1NVF6ejrFxsYqj8vlIr/fT1dXV6y/vLykuro6SkxMNOmRo7m5mZ6fn5UaRiyN7O/vU15enimh/mRkZNDs7CxNTEyQ2+02xfWnsLBQ5LbCZGRra0v5Vfjlc3NzdH5+Tnd3d7SyskJdXV2WvzwpKYl6e3tpbW2N7u/vxR7s9fl8rME+vF4dxQjefVFREScdGRkxhhVCoRAlJydzgdTUVPFt2DE8PMzmS0pKTN+ZYqSvr48TDw0NGUOW4JdLfTgc1sMmBgcHWY+P2YhiJDc3V4jKy8vp4+PDGLKloaGBGhsb9WVLkLOsrEzUwPdihI2gS6RbOHcKuuX29lZftiUQCIgacXFxShexkc3NTTaytLTEgmizsLDAdXZ3d3mdjUxOTrLg6OiIBdEGw1HWmZmZ4XU2sri4yAJ0xL9idXWV62AUSNjIxcUFCzo6OlgQbTCDZJ3r62teV7qmuLhYCLKzs+nl5cUYigrIWVBQIGpUVVUpMcWI/KLx9PT0GENRob29nfOPj48rMcXI09MTeTweIUxISLAcxd/FOPxKS0vp/f1diZvOmvX1dR7FODV3dnZ0ScTgA5XHAQ5Hq640GQHz8/PsPiUlhZaXl3WJY6ampig+Pl7kwvm1t7enSwSWRgDOGmkGUxCXnEjp7u7mHPiXMczssDUCpqenKS0tjZO1tLSY3q0VuKXh/JH7MjMzv5xNnxoB6PXKykpOWl9f/2lr49zxer2sr6ioUOaFHV8aAQ8PD1RdXc3JUejm5kaX0dnZGeXn57OutrZW7HWCIyMArV1TU8NFcnJylIvxycmJWJNx3HedvEaJYyMAr8R47cvKyhJdEAwGxf1Vrnd2dupbvyQiIwCXm9bWVi5qfNBdY2Nj+hZHRGxEgpu78QKNeYPB9V2+bQQcHx+Llm5ra6PT01M9HBF/ZSSa/BrR+TFG/gD6ARLhKL7vywAAAABJRU5ErkJggg==" InformativeScreenshot="5cf609c89681686d533a4f164979e248.png" Reference="igFFmHnoR0qzinELv6wQMA/OGZcaN4B0U-XjIYIo3-AtQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Instagram' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="04df560d-d89c-4559-ba25-10c257fbf7c5" CvTextArea="950, 761, 90, 22" CvTextArgument="Messages" CvType="Text" DesignTimeRectangle="952, 761, 88, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Messages' type='' tag='SPAN' class='x1lliihq x1plvlek xryxfnj x1n2onr6 x1ji0vk5 x18bv5gf x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xl565be x1s688f x5n08af x1tu3fi x3x7a5m x10wh9bi xpm28yp x8viiok x1o7cslx' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Messages' /&gt;" Guid="095abe61-aded-4100-a99c-8c6fd5f96e8b" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9612e337-7374-4c53-aa59-80d32a47682e" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" ContentHash="f9wiNe1xqEWXQiQabggD-A" CvElementArea="1222, 7, 24, 23" CvType="CloseButton" DesignTimeRectangle="1206, 1, 58, 38" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="391c98c1-955d-4683-b88d-d0838060787a" InformativeScreenshot="2892994ebcdc8a63d3a6962864893f06.png" Reference="igFFmHnoR0qzinELv6wQMA/pvZ1YLdlB0KgpanpKSL0vQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instagram - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" CvElementArea="1164, 6, 25, 24" CvType="MaximizeButton" DesignTimeRectangle="1148, 1, 59, 38" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Maximize' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Maximize' /&gt;" Guid="1f0ed59a-88bf-476a-a78a-32ce58f0740f" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" DisplayName="Close Popup" sap:VirtualizedContainerService.HintSize="416,161.6" sap2010:WorkflowViewState.IdRef="NClosePopup_3" PreferredButtons="[New String(){&quot;Close&quot;, &quot;Cancel&quot;}]" Version="V5" />
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="4b91748c-8ba2-4ab3-b122-1858c9dc7504" ContentHash="XhgHOBH2WEeIiQLvwHYxpQ" CvElementArea="502, 602, 365, 50" CvTextArea="519, 619, 331, 18" CvTextArgument="Follow and Verify Previous Promotion" CvType="Button" DesignTimeRectangle="504, 604, 361, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' /&gt;" Guid="85d616f3-641a-44f0-a19a-f92490b27d83" InformativeScreenshot="e18ec393a01c2de969bba59a84a9fcc8.png" Reference="igFFmHnoR0qzinELv6wQMA/7RDzN2Koz0Oa024vK_XYcg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <uix:Target CVScreenId="4b91748c-8ba2-4ab3-b122-1858c9dc7504" CvTextArea="594, 567, 73, 28" CvTextArgument="Liking" CvType="Text" DesignTimeRectangle="595, 562, 79, 33" FuzzySelectorArgument="&lt;webctrl parentid='showText' tag='B' type='' class='' aaname=' Liking ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Liking' /&gt;" Guid="d9cd5e7c-b83e-4523-b5f4-25b0af9903d5" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NCheckState.Target>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="f00b200a-50ef-4021-8883-edbd853dd308" ContentHash="aXoMJZIXeU6TAGPQSnMMzQ" CvTextArea="656, 619, 116, 30" CvTextArgument="Following" CvType="Text" DesignTimeRectangle="657, 614, 115, 33" FullSelectorArgument="&lt;webctrl parentid='showText' tag='B' /&gt;" Guid="34c8ee66-8fa7-4af3-97c9-cc9cffda56da" InformativeScreenshot="08e580ba6bd4bab683845f285d591583.png" Reference="igFFmHnoR0qzinELv6wQMA/l1AbAvaSDU6x46fjVBpSKg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="f00b200a-50ef-4021-8883-edbd853dd308" CvElementArea="502, 654, 365, 50" CvTextArea="519, 670, 331, 18" CvTextArgument="Follow and Verify Previous Promotion" CvType="Button" DesignTimeRectangle="504, 656, 361, 47" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' type='' class='btn btn-success' aaname='Follow and Verify Previous Promotion' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Follow and Verify Previous Promotion' /&gt;" Guid="896b5593-4506-42f2-9bd9-f6d2a4cf5bad" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckState.Target>
+                  </uix:NCheckState>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="num &gt; 0" />
+              </ui:InterruptibleWhile.Condition>
+            </ui:InterruptibleWhile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="5Ezi2AddukCwo5GkquZshA" IconBase64="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" InformativeScreenshot="71921d5fd9b24b053f6afb35f547c99d.png" Reference="igFFmHnoR0qzinELv6wQMA/gsVLkvltJEaO2HdP14J3yw" Selector="&lt;html app='chrome.exe' title='New Tab' /&gt;" Url="chrome://newtab/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

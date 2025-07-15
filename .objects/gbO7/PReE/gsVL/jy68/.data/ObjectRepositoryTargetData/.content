@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KS2jm1umdkalP3SnSjGd-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com" CVScreenId="caf6de9e-7e1f-4278-a57e-d2608174d734" CvElementArea="955, 690, 139, 51" CvTextArea="1002, 706, 42, 15" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="954, 690, 141, 51" ElementType="Button" Guid="c4c5faf3-38b9-4163-b647-2256a243ecbd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="caf6de9e-7e1f-4278-a57e-d2608174d734" CvTextArea="692, 506, 22, 15" CvTextArgument="Ad" CvType="Text" DesignTimeRectangle="692, 506, 22, 15" ElementType="Text" Guid="c907e3ed-943a-4772-b5a5-5f70e6820f55" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="264a697a9abb467947cd3a7e1fb33dfa.png" xmlns="">0_wQFtjFtqkuDTnW6_H40Cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

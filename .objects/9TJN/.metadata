@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Setup Extensions",
+  "Type": "App",
+  "Id": "9TJNE4VDfUmuq2Rn45PF1Q",
+  "Reference": "igFFmHnoR0qzinELv6wQMA/9TJNE4VDfUmuq2Rn45PF1Q",
+  "Created": "2025-07-14T17:10:35.1925926Z",
+  "Updated": "2025-07-14T17:10:35.1925926Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

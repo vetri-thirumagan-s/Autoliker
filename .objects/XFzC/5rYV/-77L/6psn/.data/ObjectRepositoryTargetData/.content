@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IxxaJd1e2kmPj5jAsUcyBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bb23e902-fbaf-4ae0-bbec-1f9eb696e1ce" CvElementArea="336, 62, 1111, 42" CvType="InputBox" DesignTimeRectangle="391, 66, 952, 36" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='New Tab - Brave' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="b59c4166-9f12-4f23-8181-7eea661c18f6" ScopeSelectorArgument="&lt;wnd app='brave.exe' cls='Chrome_WidgetWin_1' title='New Tab - Brave' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bb23e902-fbaf-4ae0-bbec-1f9eb696e1ce" CvElementArea="95, 69, 30, 29" CvType="Icon" DesignTimeRectangle="94, 66, 35, 36" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='New Tab - Brave' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Reload' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Reload' /&gt;" Guid="e8783f71-64fd-42c5-9b43-ff3662b78002" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAoCAYAAAB99ePgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJsSURBVFhH7ZbrT1JxGMf9TysNFfJCGl5g4YWMRbOVzNK5XG2taS7n1sVIa44ghmuZQN6qDUFrw1f5QiAGT3ueOkwfsfOcH7Hx4ny28+Z8f5fPOb9rA9QxDfxFPWHKqWLKqWLKqWLKqVKVXDyxAWPjk9DrGoAWWydYrO3Q1eMEz3UfvFgMQD7/i1cxhJJcOr0HrgEPnGtqpef8RSu43MPQ5xqExuZL5fftdgesBEO8uhjDcsF3YWhqaaPOh0duQCzxGXK5XDkvFAoQia7CNe/NsqT/7iQcHWVPtCPBkFww9J46Q7no6gcenyK5mwJbRzfVGRuf4LEuYrnNrR0aPnxi8QSPzySZ3AWLtYMENza3efxPxHKDHi91EApHeKTL2qd1qovz0sjwiuTWY3Fq3Osb5ZEu+XyepLT512zrhC9fv/FiFRHJTd1/QA0vBpZ4pAv+aU1Me7y+W7xYRURyuCqx0UzmgEe6PH8ZOCXXf3WIF6uISK7L4aRNVoX03j4touNys3PzvFhFRHI9Tjc1qrrj45zFUwS3oDv+e+J2RHLahFYZ1moQyU1MTZOcdJX9L0RyH9f+7FPTDx/xqKaI5IrFIq0wFNza3uFxzRDJIXh8oVx3rwsyB/K5l81m4fHMHPw8POSRLmI55NXrZRJsbbPTkaQHHvx4v8M6gaU3PNbFkByy/HYFLlhs1OHMk6c05McplUq0qvFDGv+Ww7mKVymjGJZD9r//oCMIO8a967Kjn26/7qGRE5dN+5U+CEeivLoYJTmNVCoN8wvPSEy7t+HfGr3tpwsn/6tGqUqu1phyqphyqphyqphyqtS13G96KIYELEy4FQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="97776b9e7d178046a7ba1f3f29689dab.png" xmlns="">0bRjxhxH0TU6m0gzX88LTnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

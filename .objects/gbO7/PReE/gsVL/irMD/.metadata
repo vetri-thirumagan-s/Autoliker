@@ -1,0 +1,14 @@
+﻿{
+  "Name": "editable text Address a…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "irMDfiQYaE6N5kAQxX9Lbw",
+  "Reference": "igFFmHnoR0qzinELv6wQMA/irMDfiQYaE6N5kAQxX9Lbw",
+  "ParentRef": "igFFmHnoR0qzinELv6wQMA/gsVLkvltJEaO2HdP14J3yw",
+  "Created": "2025-07-14T17:23:31.9988073Z",
+  "Updated": "2025-07-14T17:23:31.9988073Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

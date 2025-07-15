@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a82zpeWiwkWtnJYU__B5Ig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="2a3f7909-657a-4c43-957c-b705228458db" CvElementArea="502, 602, 365, 50" CvTextArea="519, 619, 331, 18" CvTextArgument="Follow and Verify Previous Promotion" CvType="Button" DesignTimeRectangle="504, 604, 361, 47" ElementType="Button" FullSelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' /&gt;" Guid="a380486b-cb13-42ed-bc2f-587f73b176d3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2a3f7909-657a-4c43-957c-b705228458db" CvTextArea="594, 567, 73, 28" CvTextArgument="Liking" CvType="Text" DesignTimeRectangle="595, 562, 79, 33" FuzzySelectorArgument="&lt;webctrl parentid='showText' tag='B' type='' class='' aaname=' Liking ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Liking' /&gt;" Guid="5bc2616d-a728-43a9-a6e7-7705a9094cc2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0ef8492e7652dd7453784c5605874db.png" xmlns="">08SLNDCr-Pky3CWu6gkcSAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

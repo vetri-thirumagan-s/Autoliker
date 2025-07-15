@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qeyK6uJImkek7pDRRs-OAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com" CVScreenId="809e094d-a6dd-4163-9b00-61b625744b0e" CvElementArea="1084, 480, 30, 29" CvType="CloseButton" DesignTimeRectangle="1092, 487, 17, 17" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='aswift_3' tag='IFRAME' /&gt;&lt;webctrl tag='path' /&gt;" Guid="c3ca21b5-6f49-4c46-9f6b-94b782bd8a76" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="809e094d-a6dd-4163-9b00-61b625744b0e" CvTextArea="835, 485, 22, 13" CvTextArgument="Ad" CvType="Text" DesignTimeRectangle="838, 477, 20, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='aswift_3' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl parentid='heading' tag='DIV' type='' class='text' aaname='Ad' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ad' /&gt;" Guid="a2d91e8a-8776-4db3-a5eb-829aba0dd5a8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="484891c88e3cb8e6ee1000be80528853.png" xmlns="">0bQYFb1KP4EK79eXfRod7Mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

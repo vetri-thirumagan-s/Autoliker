@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KGa--kkm-k-rvstrOSdmjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com" CVScreenId="d8356394-2621-4f0f-a2c6-331473e9df75" CvElementArea="1092, 834, 114, 51" CvTextArea="1107, 850, 82, 22" CvTextArgument="Try Now" CvType="Button" DesignTimeRectangle="1094, 836, 111, 47" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Try Now' href='/autoliker' tag='A' /&gt;" Guid="6af64328-6517-4960-93c2-9358bb14dd8a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Great Online Tools - Best Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1045, 655, 265, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' class='ms-3 fw-bold' aaname='Instagram Auto Liker' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Instagram Auto Liker' /&gt;" Guid="af7e5332-8725-45ec-9334-86e2f44256b3" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="365e7acfca2fa93f20259f292f6d53e8.png" xmlns="">0ycJXWLJ72kS1I9dHbH6I7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

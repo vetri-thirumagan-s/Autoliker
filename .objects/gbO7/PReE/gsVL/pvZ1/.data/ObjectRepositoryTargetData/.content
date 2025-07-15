@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f9wiNe1xqEWXQiQabggD-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" CvElementArea="1222, 7, 24, 23" CvType="CloseButton" DesignTimeRectangle="1206, 1, 58, 38" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="391c98c1-955d-4683-b88d-d0838060787a" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instagram - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="66fe91ac-eb39-4ff1-8d13-5b998d9e7948" CvElementArea="1164, 6, 25, 24" CvType="MaximizeButton" DesignTimeRectangle="1148, 1, 59, 38" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Instagram - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Maximize' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Maximize' /&gt;" Guid="1f0ed59a-88bf-476a-a78a-32ce58f0740f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2892994ebcdc8a63d3a6962864893f06.png" xmlns="">0ZzhUNpjKCk-L13UA4VSx7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

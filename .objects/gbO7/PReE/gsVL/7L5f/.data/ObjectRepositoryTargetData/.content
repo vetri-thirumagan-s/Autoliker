@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3hgZp6z4e0O-fS5YEOGdow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="newtab" CVScreenId="f3c97a47-cbb7-48ea-b424-6fd2fee119d5" CvElementArea="200, 66, 1415, 41" CvType="InputBox" DesignTimeRectangle="250, 72, 1317, 31" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='New Tab - Google Chrome - Vetri' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="5f72eeb6-bdf1-4d32-8620-59023c2a41e4" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="105, 66, 43, 43" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='New Tab - Google Chrome - Vetri' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Reload' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Reload' /&gt;" Guid="37ebd1bb-6afe-40ef-81ff-f36fdf419d52" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c2c0837df84618fe6c17166b72a1d4b5.png" xmlns="">09mAcL_oagEqns3CquiPdOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

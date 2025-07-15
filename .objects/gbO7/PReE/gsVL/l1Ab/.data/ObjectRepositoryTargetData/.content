@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aXoMJZIXeU6TAGPQSnMMzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="greatonlinetools.com/autoliker/earn" CVScreenId="f00b200a-50ef-4021-8883-edbd853dd308" CvTextArea="656, 619, 116, 30" CvTextArgument="Following" CvType="Text" DesignTimeRectangle="657, 614, 115, 33" FullSelectorArgument="&lt;webctrl parentid='showText' tag='B' /&gt;" Guid="34c8ee66-8fa7-4af3-97c9-cc9cffda56da" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Earn Credits | Great Online Tools' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f00b200a-50ef-4021-8883-edbd853dd308" CvElementArea="502, 654, 365, 50" CvTextArea="519, 670, 331, 18" CvTextArgument="Follow and Verify Previous Promotion" CvType="Button" DesignTimeRectangle="504, 656, 361, 47" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='actionbtn' tag='BUTTON' type='' class='btn btn-success' aaname='Follow and Verify Previous Promotion' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Follow and Verify Previous Promotion' /&gt;" Guid="896b5593-4506-42f2-9bd9-f6d2a4cf5bad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="08e580ba6bd4bab683845f285d591583.png" xmlns="">01bdQEbi2UEqjbIoNZSoCGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
